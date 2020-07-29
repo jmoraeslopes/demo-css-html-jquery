@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/site.css" />
+        <title>Github Hub</title>
+    </head>
+        <body>
+            <div class="container">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="/home.html">Home</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/about.html">About</a></li>
+                    </ul>
+                </nav>
+                <div><img src="img/logo.png" class="bordered-img" /></div>
+                <div>This is a site to search Github for interesting projects.</div>
+            </header>
+            <section id="main">
+                <p>In this sample website, we'll show a 
+                    list of <a href="http://github.com" target="_blank">Github</a> 
+                    projects and the data about <b>those projects</b>.
+                </p>
+                <form action="http://wilder.azurewebsites.net/echo" class="bordered-img simple-form">
+                    <label for="searchQuery">Search query:</label>
+                    <input type="text" id="searchQuery" name="searchQuery"><br/>
+                    <input type="checkbox" name="useStars" id="useStars">
+                    <label for="useStars">Use stars?</label><br/>
+                    <label for="langChoice">Language:</label>
+                    <select name="langChoice" id="langChoice">
+                        <option selected>All</option>
+                        <option>JavaScript</option>
+                        <option>Java</option>
+                        <option>C#</option>
+                        <option>Python</option>
+                    </select><br/>
+                    <input type="submit" value="search">
+                </form>
+                <div id="results" class="bordered-img">
+                    <div id="resultsList">This is where the results will go.</div>
+                </div>
+            </section>
+        <footer>
+            2020 Juliano Lopes
+        </footer>
+    </div>
+        </body>
+</html>
