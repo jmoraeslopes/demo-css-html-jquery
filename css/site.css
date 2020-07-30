@@ -51,6 +51,7 @@ header, footer {
     width: 600px;
     display: inline-block;
     vertical-align: top;
+    border 1px;
 }
 
 body {
@@ -81,4 +82,9 @@ footer {
 
 #main label {
     font-weight: bold;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
 }
